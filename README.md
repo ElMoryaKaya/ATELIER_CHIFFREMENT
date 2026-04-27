@@ -38,7 +38,7 @@ python app/file_crypto.py decrypt secret.enc secret.dec.txt
 cat secret.dec.txt
 ```
 **Que se passe-t-il si on modifie un octet du fichier chiffré ?**  
- Réponse courte : Le déchiffrement va échouer instantanément et le programme va planter. Il ne vous rendra pas un fichier à moitié lisible ; il refusera tout simplement de vous rendre quoi que ce soit.
+Le déchiffrement va échouer instantanément et le programme va planter. Il ne vous rendra pas un fichier à moitié lisible ; il refusera tout simplement de vous rendre quoi que ce soit.
  
 **Pourquoi ne faut-il pas commiter la clé dans Git ?**   
 Parce que Git a une mémoire absolue. Tout ce qui est commité dans Git reste dans l'historique de Git pour toujours, même si vous effacez le fichier dans le commit suivant.
